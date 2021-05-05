@@ -1,31 +1,3 @@
-# Summations
+# The 27 times table
 
-Congratulations on writing your first code containing a summation.  Hopefully, your code looked something like the code in main.py.  There is, however, another way that we could go about writing this code.  We can write this code by exploiting the fact that:
-
-````
-timesTable[n+1] = timesTable[n] + table
-````
-
-Your task in this exercise is to exploit the expression above to rewrite the code shown on the left without using any arrays (in other words, you can only use scalar-valued variables).  To pass the test your code will need to generate the following output:
-
-````
-0
-7
-14
-21
-28
-35
-42
-49
-56
-63
-70
-````
-
-Notice that you can achieve an output like the one above by putting the print statement in the loop like this:
-
-````
-for i in range(11)
-    timesTable[i] = i*table
-    print(timesTable[i])
-````    
+To ensure that you have understood all the exercise thus far see if you can use what you have learned to write a program to calculate the first 16 numbers in the 27 times table.  The smallest of these numbers is 0 and the largest is 405.  These 16 numbers should be stored in an array called `timesTable`.  Please use a for loop in your program and use `i` as the loop variable.   
