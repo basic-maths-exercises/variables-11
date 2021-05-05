@@ -17,4 +17,4 @@ class UnitTests(unittest.TestCase) :
        assert( vc.check_vars( "timesTable", x ) ) 
        
     def test_loop(self) :
-       assert( vc.check_vars("i",16) ) 
+       assert( vc.check_vars("i",15) ) 
